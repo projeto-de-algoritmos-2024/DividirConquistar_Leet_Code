@@ -17,7 +17,8 @@ O objetivo do projeto é exercitar os conhecimentos adquiridos no módulo 3 da m
 
 |       Nome               |   Nível |
 |--------------------------|---------|
-
+| [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | Médio | 
+| [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | Dificil | 
 
 ## Vídeo
 
