@@ -26,7 +26,7 @@ void partition(int* arr, int size, int pivot, int** less, int* lessSize, int** e
 }
 
 // Seleciona o k-ésimo menor elemento do array
-int select(int* arr, int size, int k) {
+int selectKth(int* arr, int size, int k) {
     if (size <= 5) {
         qsort(arr, size, sizeof(int), compare);
         return arr[k];
@@ -43,7 +43,7 @@ int select(int* arr, int size, int k) {
     }
 
     // Mediana das medianas
-    int pivot = select(medians, numGroups, numGroups / 2);
+    int pivot = selectKth(medians, numGroups, numGroups / 2);
     free(medians);
 
     int *less, *equal, *greater;
@@ -52,11 +52,11 @@ int select(int* arr, int size, int k) {
 
     int result;
     if (k < lessSize) {
-        result = select(less, lessSize, k);
+        result = selectKth(less, lessSize, k);
     } else if (k < lessSize + equalSize) {
         result = pivot;
     } else {
-        result = select(greater, greaterSize, k - lessSize - equalSize);
+        result = selectKth(greater, greaterSize, k - lessSize - equalSize);
     }
 
     free(less);
@@ -75,7 +75,7 @@ int findKthElement(int* nums1, int nums1Size, int* nums2, int nums2Size, int k) 
         combined[nums1Size + i] = nums2[i];
     }
 
-    int result = select(combined, nums1Size + nums2Size, k);
+    int result = selectKth(combined, nums1Size + nums2Size, k);
     free(combined);
     return result;
 }

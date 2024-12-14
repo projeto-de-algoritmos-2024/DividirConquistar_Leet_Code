@@ -21,9 +21,18 @@ O objetivo do projeto é exercitar os conhecimentos adquiridos no módulo 3 da m
 | [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | Dificil | 
 
 ## Vídeo
-
+ [Video apresentando as quesões 53 e 4](https://youtu.be/GD00pL0ouGI) </br>
 ## Screenshots
-
+Median of Two Sorted Arrays Caso 1</br>
+![Median of Two Sorted Arrays](/assets/Mediana1.png)</br>
+Median of Two Sorted Arrays Caso 2</br>
+![Median of Two Sorted Arrays](/assets/Mediana2.png)</br>
+Maximum Subarray Caso 1</br>
+![Maximum Subarray](/assets/maxSub1.png)</br>
+Maximum Subarray Caso 2</br>
+![Maximum Subarray](/assets/maxSub2.png)</br>
+Maximum Subarray Caso 3</br>
+![Maximum Subarray](/assets/maxSub3.png)</br>
 
 ## Instalação 
 **Linguagem**: variada<br>
