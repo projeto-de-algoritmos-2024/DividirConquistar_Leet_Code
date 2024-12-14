@@ -27,7 +27,12 @@ Median of Two Sorted Arrays Caso 1</br>
 ![Median of Two Sorted Arrays](/assets/Mediana1.png)</br>
 Median of Two Sorted Arrays Caso 2</br>
 ![Median of Two Sorted Arrays](/assets/Mediana2.png)</br>
-
+Maximum Subarray Caso 1</br>
+![Maximum Subarray](/assets/maxSub1.png)</br>
+Maximum Subarray Caso 2</br>
+![Maximum Subarray](/assets/maxSub2.png)</br>
+Maximum Subarray Caso 3</br>
+![Maximum Subarray](/assets/maxSub3.png)</br>
 
 ## Instalação 
 **Linguagem**: variada<br>
