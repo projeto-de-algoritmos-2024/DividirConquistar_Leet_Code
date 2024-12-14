@@ -23,6 +23,10 @@ O objetivo do projeto é exercitar os conhecimentos adquiridos no módulo 3 da m
 ## Vídeo
 
 ## Screenshots
+Median of Two Sorted Arrays Caso 1</br>
+[Median of Two Sorted Arrays](/assets/Mediana1.png)</br>
+Median of Two Sorted Arrays Caso 2</br>
+[Median of Two Sorted Arrays](/assets/Mediana2.png)</br>
 
 
 ## Instalação 
