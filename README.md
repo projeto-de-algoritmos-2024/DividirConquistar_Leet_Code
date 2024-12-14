@@ -21,7 +21,7 @@ O objetivo do projeto é exercitar os conhecimentos adquiridos no módulo 3 da m
 | [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | Dificil | 
 
 ## Vídeo
-
+ [Video apresentando as quesões 53 e 4](https://youtu.be/GD00pL0ouGI) </br>
 ## Screenshots
 Median of Two Sorted Arrays Caso 1</br>
 ![Median of Two Sorted Arrays](/assets/Mediana1.png)</br>
