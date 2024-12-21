@@ -18,7 +18,9 @@ O objetivo do projeto é exercitar os conhecimentos adquiridos no módulo 3 da m
 |       Nome               |   Nível |
 |--------------------------|---------|
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | Médio | 
-| [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | Dificil | 
+| [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | Dificil |
+| [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/) | Médio |
+| [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/?envType=problem-list-v2&envId=divide-and-conquer) | Difícil |
 
 ## Vídeo
  [Video apresentando as quesões 53 e 4](https://youtu.be/GD00pL0ouGI) </br>
