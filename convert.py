@@ -11,4 +11,25 @@
 #         self.right = right
 class Solution:
     def sortedListToBST(self, head: Optional[ListNode]) -> Optional[TreeNode]:
+        # transformando a lista encadeada em um array
+        arvore = [] 
+
+        # copiando todos os valores de head para a lista
+        while head :
+            arvore.append(head.value)
+            head = head.next
+        if arvore == [] :
+            return None
         
+        # criando a árvore de busca binária balanceada
+        def cria_binariaBalanceada(arvore) :
+            if arvore == [] or arvore == None :
+                return
+            elif len(arvore) == 1 :
+                return TreeNode[arvore[0]]
+            meio = len(arvore)//2
+            raiz = TreeNode(arvore[meio])
+            raiz.esquerda = cria_binariaBalanceada(arvore[:meio])
+            raiz.direita = cria_binariaBalanceada(arvore[meio+1:])
+            return raiz
+        return cria_binariaBalanceada(arvore)
