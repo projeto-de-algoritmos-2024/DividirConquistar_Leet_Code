@@ -16,7 +16,7 @@ class Solution:
 
         # copiando todos os valores de head para a lista
         while head :
-            arvore.append(head.value)
+            arvore.append(head.val)
             head = head.next
         if arvore == [] :
             return None
@@ -26,10 +26,10 @@ class Solution:
             if arvore == [] or arvore == None :
                 return
             elif len(arvore) == 1 :
-                return TreeNode[arvore[0]]
+                return TreeNode(arvore[0])
             meio = len(arvore)//2
-            raiz = TreeNode(arvore[meio])
-            raiz.esquerda = cria_binariaBalanceada(arvore[:meio])
-            raiz.direita = cria_binariaBalanceada(arvore[meio+1:])
-            return raiz
+            root = TreeNode(arvore[meio])
+            root.left = cria_binariaBalanceada(arvore[:meio])
+            root.right = cria_binariaBalanceada(arvore[meio+1:])
+            return root
         return cria_binariaBalanceada(arvore)
