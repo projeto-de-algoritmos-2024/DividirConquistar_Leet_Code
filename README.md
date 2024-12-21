@@ -35,6 +35,10 @@ Maximum Subarray Caso 2</br>
 ![Maximum Subarray](/assets/maxSub2.png)</br>
 Maximum Subarray Caso 3</br>
 ![Maximum Subarray](/assets/maxSub3.png)</br>
+Convert Sorted List To Binary Search Tree Caso 1
+![Convert Sorted List To Binary Search Tree](/assets/convertCaso1.png)</br>
+Convert Sorted List To Binary Search Tree Caso 2
+![Convert Sorted List To Binary Search Tree](/assets/convertCaso2.png)</br>
 
 ## Instalação 
 **Linguagem**: variada<br>
